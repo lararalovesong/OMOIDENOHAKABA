@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>omoidenohakaba </title>
+
+    <link rel="stylesheet" href="omoide.css">
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="mobile.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+
+    <div id="mainv">
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li>MENBER</li>
+                    <li>ABOUT</li>
+                    <li>ACCESS</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="glitch">
+            <img src="./img/main_hone.png" alt="">
+        </div>
+
+
+        <div class="logo">
+            <div class="titlelogo">
+                <p>思い出の墓場展</p>
+            </div>
+            <div class="logoEN">
+                <p>The graveyard of memories</p>
+            </div>
+            <div class="logoshousai">
+                <p>2020.3.20-25<br>新宿眼科画廊　スペースO</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="poem">
+
+        <div class="test" contenteditable>
+            <p class="small">それは腐りますか。今も元気なんですか。<br>
+                手は清めますか。土はかけますか。祈りますか。<br>
+                随分と重たく大きいですね。これが想い出ですか。時間がかかった匂いがします。<br>
+                でも、あなた自身だってそうでしょう。<br>
+                ずっと何十億も前のあなたは、きっと星くずみたいなモンですよ。</p>
+
+        </div>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+
+
+                <filter id="squiggly-0">
+                    <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="0" />
+                    <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="6" />
+                </filter>
+                <filter id="squiggly-1">
+                    <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="1" />
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+                </filter>
+
+                <filter id="squiggly-2">
+                    <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="2" />
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+                </filter>
+                <filter id="squiggly-3">
+                    <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3" />
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+                </filter>
+
+                <filter id="squiggly-4">
+                    <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4" />
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+                </filter>
+            </defs>
+        </svg>
+    </div>
+
+    <div id="menber">
+        <h1>:MENBER</h1>
+    </div>
+    <div id="about">
+        <h1>:ABOUT</h1>
+        <div class="contents">
+            <div class="intro_img">
+                <img src="./img/omoidenohakabaten.png" alt="" width="400px">
+            </div>
+            <div class="right-box">
+                <div class="text">
+
+                    <div class="r0">
+                        <p>思い出の墓場展</p>
+                    </div>
+                    <div class="r1">
+                        <p>新宿眼科画廊<span class="bold">スペース O</span> </p>
+                    </div>
+
+                    <div class="r2">
+                        <p>2020年3月20日(金)〜25日(水)<br> 12:00〜20:00(水曜日〜17:00)</p>
+                    </div>
+                    <div class="r3">
+                        <p>島田樂樂 川本仁紀<br>有賀楓夏 大嶋はな<br>杉下睦実 久保田伶奈</p>
+                    </div>
+                    <div class="r4">
+                        <p>instagram:<a span href="https://www.instagram.com/omoidenohakaba/?hl=ja">omoidenohakaba</a></p>
+                    </div>
+                    <div class="smh">
+                        <div class="r5">
+                            <a>新宿眼科画廊 特設ページはこちら</a>
+                        </div>
+                    </div>
+                    <div class="pc">
+                        <div class="r5">
+                            <p>新宿眼科画廊 特設ページ</p>
+                        </div>
+                    </div>
+                      <div class="pc">
+                        <div class="r6">
+                            <a href="https://www.gankagarou.com/202003omoidenohakaba">https://www.gankagarou.com/202003omoidenohakaba</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="rellax" data-rellax-speed="-3"><img src="img/siote.png" width="200px"></div>
+
+            </div>
+        </div>
+    </div>
+    <div id="access">
+        <h1>:ACCESS</h1>
+        <div class="rellax" data-rellax-speed="-1"><img src="img/hone_para.PNG" width="200px"></div>
+        <div class="ac1">
+            <p>新宿眼科画廊</p>
+        </div>
+        <div class="ac2">
+            <p>〒160-0022 東京都新宿区新宿 5-18-11<br>03-5285-8822 ¦ info@gankagarou.com</p>
+        </div>
+    </div>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
+
+
+
+        .test {
+            -webkit-animation: squiggly-anim 0.34s linear infinite;
+            animation: squiggly-anim 0.34s linear infinite;
+        }
+
+        .small {
+            font-size: 0.8em;
+            color: #00FF00;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        @-webkit-keyframes squiggly-anim {
+            0% {
+                -webkit-filter: url("#squiggly-0");
+                filter: url("#squiggly-0");
+            }
+
+            25% {
+                -webkit-filter: url("#squiggly-1");
+                filter: url("#squiggly-1");
+            }
+
+            50% {
+                -webkit-filter: url("#squiggly-2");
+                filter: url("#squiggly-2");
+            }
+
+            75% {
+                -webkit-filter: url("#squiggly-3");
+                filter: url("#squiggly-3");
+            }
+
+            100% {
+                -webkit-filter: url("#squiggly-4");
+                filter: url("#squiggly-4");
+            }
+        }
+
+        @keyframes squiggly-anim {
+            0% {
+                -webkit-filter: url("#squiggly-0");
+                filter: url("#squiggly-0");
+            }
+
+            25% {
+                -webkit-filter: url("#squiggly-1");
+                filter: url("#squiggly-1");
+            }
+
+            50% {
+                -webkit-filter: url("#squiggly-2");
+                filter: url("#squiggly-2");
+            }
+
+            75% {
+                -webkit-filter: url("#squiggly-3");
+                filter: url("#squiggly-3");
+            }
+
+            100% {
+                -webkit-filter: url("#squiggly-4");
+                filter: url("#squiggly-4");
+            }
+        }
+
+    </style>
+    <script src="js/rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax');
+
+    </script>
+    <script>
+        $(window).on("load", function() {
+            $('.glitch').glitch();
+        });
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(document).snowfall({
+            // 雪の量 (数値)
+            flakeCount: 550,
+            // 色 (RGB)
+            flakeColor: "#FFF",
+            // z-indexの値
+            flakeIndex: "888",
+            // 最小サイズ （数値）
+            minSize: 5,
+            // 最大サイズ（数値）
+            maxSize: 15,
+            // 最低速度（数値）
+            minSpeed: 5,
+            // 最高速度（数値）
+            maxSpeed: 10,
+            // 雪の形を丸にする（boolean）
+            round: true,
+            // 影をつける（boolean）
+            shadow: false
+            // 要素に積もらせる場合
+            //    collection : "積もらせる要素",
+            //    // オリジナル画像を使用する場合
+            //    image : "画像へのパス"
+        });
+
+    </script>
+    <script type="text/javascript" src=">./js/snowfall.js"></script>
+    <script type="text/javascript" src="./js/snowfall.jquery.js"></script>
+</body>
+
+</html>

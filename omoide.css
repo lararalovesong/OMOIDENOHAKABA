@@ -1,0 +1,228 @@
+@media screen and (min-width:700px) {
+    /*ウィンドウ幅が767px以上の場合に適用*/
+
+
+
+
+    @charset "UTF-8";
+
+    @font-face {
+        font-family: 'kokoro';
+        src: url(./font/Kokoro.otf);
+    }
+
+    @font-face {
+        font-family: 'hannari';
+        src: url(./font/Hannari.otf);
+    }
+
+    @font-face {
+        font-family: 'dot';
+        src: url(./font/misaki_gothic.ttf);
+    }
+
+
+    html {
+        background-color: #fff;
+        font-size: 30px;
+
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+    .smh{
+        display: none;
+    }
+    /*mainvisual*/
+    li {
+        float: left;
+        color: gray;
+        font-family: 'dot';
+        padding-left: 90px;
+        text-align: center;
+        list-style: none;
+
+
+    }
+
+    .menu {
+        width: 600px;
+        margin: auto 0;
+        text-align: center;
+        overflow: hidden;
+        position: absolute;
+
+        left: 50%;
+        -webkit-transform: translateY(0) translateX(-50%);
+        transform: translateY(0) translateX(-50%);
+        margin-top: 40px;
+    }
+
+
+    #mainv {
+        background-color: #000;
+        height: 100vh;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        z-index: -3;
+
+    }
+
+
+    .glitch {
+        overflow: hidden;
+        position: relative;
+        height: 1000px;
+    }
+
+    #mainv img {
+        width: 900px;
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+        margin-top: 30px;
+    }
+
+
+    .logo p {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'kokoro';
+
+    }
+
+    .logoEN p {
+        color: #00FF00;
+        font-size: 25px;
+        font-family: 'arial narrow';
+    }
+
+    .titlelogo p {
+        color: #00FF00;
+        font-family: 'hannari';
+        font-size: 80px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+    }
+
+    .logoshousai p {
+        margin-top: 21px;
+    }
+
+    /*poem*/
+    #poem {
+        background-color: #000;
+        margin-top: -10px;
+    }
+
+    .small {
+        padding-top: 100px;
+        font-family: 'kokoro';
+        line-height: 120px;
+        text-align: center;
+    }
+
+    /*menber*/
+    #menber {
+        background-color: #DDDDDD;
+    }
+
+    /*  about  */
+    #about {
+        background-color: #DDDDDD;
+        position: relative;
+        font-family: 'kokoro';
+    }
+
+    .contents {
+
+       
+        width: 1000px;
+        background-color: #FFF;
+        margin: auto 0;
+        height: 720px;
+        border-radius: 12px;
+    }
+
+    h1 {
+        font-family: 'dot';
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .text { 
+        padding-top: 120px;
+        padding-left: 550px;
+    }
+
+    .intro_img img {
+        float: left;
+        overflow: hidden;
+        margin-top: 60px;
+        margin-left: 70px;
+    }
+    .r0 p{
+        font-family: 'hannari';
+        font-size: 33px;
+    }
+     .r1 p{
+        font-size: 26px;
+    }
+    .bold {
+   font-size: 20px;
+        margin-left: 10px;
+}
+     .r2 p{
+        font-size: 18px;
+letter-spacing:5px;
+         margin-top: 12px;
+         margin-bottom: 20px;
+    }
+    .r3 p{
+        font-size: 25px;
+    }
+    
+    .r4 {margin-top: 10px;}
+      .r4 p{
+        font-size: 22px;
+          text-decoration: none;
+          
+    }
+      .r4 a{
+        font-size: 22px;
+          text-decoration: none;
+          color: #18BC3B;
+          
+    }
+
+      .r5 p{
+        font-size: 16px;
+          margin-top: 80px;
+          margin-bottom: -20px;
+    }
+      .r6 a{
+        font-size: 14px;
+          text-decoration: none;
+          color: #18BC3B;
+    }
+    /*access*/
+    #access {
+        background-color: #2A2A2A;
+    }
+
+    #access p {
+        color: #DDDDDD;
+    }
