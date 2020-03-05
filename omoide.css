@@ -145,22 +145,25 @@
         background-color: #DDDDDD;
         position: relative;
         font-family: 'kokoro';
+        padding-bottom: 170px;
     }
 
     .contents {
-
-       
         width: 1000px;
+           height: 720px;
         background-color: #FFF;
-        margin: auto 0;
-        height: 720px;
+        margin: 0 auto;
+position: relative;
         border-radius: 12px;
+       
     }
+    
 
     h1 {
         font-family: 'dot';
-        font-size: 40px;
+        font-size: 47px;
         text-align: center;
+         font-weight: normal;
     }
 
     .text { 
@@ -218,11 +221,59 @@ letter-spacing:5px;
           text-decoration: none;
           color: #18BC3B;
     }
+    .rellax1{
+     
+        position: absolute;
+        top:-90px;
+        left:840px;
+         z-index: 100px;
+    }
+     .rellax1 img{
+ width: 30vw;
+    }
+    .rellax2 {
+        position: absolute;
+        top:470px;
+        right:1020px;
+        z-index: 100px;
+    }
     /*access*/
     #access {
         background-color: #2A2A2A;
+     
+        z-index: -1px;
+        height: 1070px;
     }
 
     #access p {
         color: #DDDDDD;
     }
+   .tizu{
+       width: 900px;
+       margin: 0 auto;
+       position: relative;
+    height: 800px;
+       
+    }
+    
+    #access h1{
+        color:#00FF00;
+        padding-top: 100px;
+    }
+    .ac1{
+         font-family: 'kokoro';
+        position:absolute;
+        top:270px;
+           left:0;
+        font-size: 31px;
+        
+    }
+    .ac2{
+              font-family: 'kokoro';
+        position:absolute;
+          top:258px;
+           right: 10px;
+           font-size: 20px;
+     
+    }
+   iframe{padding-top: 190px;}
