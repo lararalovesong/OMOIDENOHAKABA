@@ -7,23 +7,71 @@
     <title>omoidenohakaba </title>
 
     <link rel="stylesheet" href="omoide.css">
-    <link rel="stylesheet" media="screen and (max-width:480px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="omoide_s.css">
+  
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script type="text/javascript" src=">./omoide_nav.js"></script>
+
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+<script src="js/modal.js"></script>
+
 </head>
 
 <body>
 
-    <div id="mainv">
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li>MENBER</li>
-                    <li>ABOUT</li>
-                    <li>ACCESS</li>
-                </ul>
-            </nav>
+
+    <div class="smh">
+
+
+        <input id="menu-cb" type="checkbox" value="off">
+        <label id="menu-icon" for="menu-cb">≡</label>
+        <label id="menu-background" for="menu-cb"></label>
+        <div id="ham-menu">
+            <ul>
+                <li>
+                    <div id="ham-menu1"><a href="#menber">menber</a></div>
+                </li>
+                <li>
+                    <div id="ham-menu2"><a href="#about">about</a></div>
+                </li>
+                <li>
+                    <div id="ham-menu3"><a href="#access">access</a></div>
+                </li>
+
+            </ul>
         </div>
+
+
+
+    </div>
+
+
+    <div id="mainv">
+
+        <div class="pc">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li>MENBER</li>
+                        <li>ABOUT</li>
+                        <li>ACCESS</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+
+
+
+
         <div class="glitch">
             <img src="./img/main_hone.png" alt="">
         </div>
@@ -82,44 +130,169 @@
                 </filter>
             </defs>
         </svg>
+        <div class="tumo">
+            <img src="./img/tumo.PNG" alt="" height="700px">
+        </div>
     </div>
 
     <div id="menber">
+
         <h1>:MENBER</h1>
+        <div class="iei_box">
+            <div class="iei">
+                <div class="ieirara">
+  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
+  <input type="checkbox" id="popup-on">
+  <div class="popup">
+    <label for="popup-on" class="icon-close">×</label>
+    <div class="popup-content">
+       <!-- ポップアップの中身 -->
+       ポップアップのxxxxxxxxxxxxxxxxxxxxxxxxxxxxx内容<br>画像もOK<br>
+      <img src="./img/iei.png" alt="" class="layer-img">
+        
+        <!-- ./ポップアップの中身　ここまで -->
+    </div>
+    <label for="popup-on"><div class="btn-close">閉じる</div></label>
+  </div>
+ </div>
+    
+    
+    
+     <div class="ieimuchi">
+  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
+  <input type="checkbox" id="popup-on">
+  <div class="popup">
+    <label for="popup-on" class="icon-close">×</label>
+    <div class="popup-content">
+       <!-- ポップアップの中身 -->
+       ポップアップの内xxxx容<br>画像xxもOxxxK<br>
+      <img src="./img/iei.png" alt="" class="layer-img">
+        <img src="./img/iei.png" alt="" class="layer-img">
+         <img src="./img/iei.png" alt="" class="layer-img">
+          <img src="./img/iei.png" alt="" class="layer-img">
+          <img src="./img/iei.png" alt="" class="layer-img">
+        
+        <!-- ./ポップアップの中身　ここまで -->
+    </div>
+    <label for="popup-on"><div class="btn-close">閉じる</div></label>
+  </div>
+ </div>
+              
+              
+    <div class="ieiniki">
+  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
+  <input type="checkbox" id="popup-on">
+  <div class="popup">
+    <label for="popup-on" class="icon-close">×</label>
+    <div class="popup-content">
+       <!-- ポップアップの中身 -->
+       ポップアップの内容<br>画像もOK<br>
+      <img src="https://homepagenopro.com/wp-content/uploads/2018/08/d11_img_mizudori.png" alt="" class="layer-img">
+        
+        <!-- ./ポップアップの中身　ここまで -->
+    </div>
+    <label for="popup-on"><div class="btn-close">閉じる</div></label>
+  </div>
+ </div>           
+              
+ 
+                  <div class="ieireina">
+  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
+  <input type="checkbox" id="popup-on">
+  <div class="popup">
+    <label for="popup-on" class="icon-close">×</label>
+    <div class="popup-content">
+       <!-- ポップアップの中身 -->
+       ポップアップの内容<br>画像もOK<br>
+      <img src="https://homepagenopro.com/wp-content/uploads/2018/08/d11_img_mizudori.png" alt="" class="layer-img">
+        
+        <!-- ./ポップアップの中身　ここまで -->
+    </div>
+    <label for="popup-on"><div class="btn-close">閉じる</div></label>
+  </div>
+ </div>     
+             
+             
+             
+                    <div class="ieihana">
+  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
+  <input type="checkbox" id="popup-on">
+  <div class="popup">
+    <label for="popup-on" class="icon-close">×</label>
+    <div class="popup-content">
+       <!-- ポップアップの中身 -->
+       ポップアップの内容<br>画像もOK<br>
+      <img src="https://homepagenopro.com/wp-content/uploads/2018/08/d11_img_mizudori.png" alt="" class="layer-img">
+        
+        <!-- ./ポップアップの中身　ここまで -->
+    </div>
+    <label for="popup-on"><div class="btn-close">閉じる</div></label>
+  </div>
+ </div>                
+                           
+                                                     
+                   <div class="ieiaruga">
+  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
+  <input type="checkbox" id="popup-on">
+  <div class="popup">
+    <label for="popup-on" class="icon-close">×</label>
+    <div class="popup-content">
+       <!-- ポップアップの中身 -->
+       ポップアップの内容<br>画像もOK<br>
+      <img src="https://homepagenopro.com/wp-content/uploads/2018/08/d11_img_mizudori.png" alt="" class="layer-img">
+        
+        <!-- ./ポップアップの中身　ここまで -->
+    </div>
+    <label for="popup-on"><div class="btn-close">閉じる</div></label>
+  </div>
+ </div>                  
+                 
+               
+            </div>
+        </div>
     </div>
     <div id="about">
         <h1>:ABOUT</h1>
         <div class="contents">
             <div class="intro_img">
-                <img src="./img/omoidenohakabaten.png" alt="" width="400px">
+                <img src="./img/omoidenohakabaten.png" alt="" width="340px">
             </div>
             <div class="right-box">
                 <div class="text">
-
-                    <div class="r0">
-                        <p>思い出の墓場展</p>
-                    </div>
-                    <div class="r1">
-                        <p>新宿眼科画廊<span class="bold">スペース O</span> </p>
-                    </div>
-
-                    <div class="r2">
-                        <p>2020年3月20日(金)〜25日(水)<br> 12:00〜20:00(水曜日〜17:00)</p>
-                    </div>
-                    <div class="r3">
-                        <p>島田樂樂 川本仁紀<br>有賀楓夏 大嶋はな<br>杉下睦実 久保田伶奈</p>
-                    </div>
-                    <div class="r4">
-                        <p>instagram:<a span href="https://www.instagram.com/omoidenohakaba/?hl=ja">omoidenohakaba</a></p>
-                    </div>
-                    <div class="smh">
-                        <div class="r5">
-                            <a>新宿眼科画廊 特設ページはこちら</a>
+                    <div class="centero">
+                        <div class="r0">
+                            <p>思い出の墓場展</p>
+                        </div>
+                        <div class="r1">
+                            <p>新宿眼科画廊<span class="bold">スペース O</span> </p>
                         </div>
                     </div>
-                    <div class="pc">
-                        <div class="r5">
-                            <p>新宿眼科画廊 特設ページ</p>
+                    <div class="lefto">
+                        <div class="r2">
+                            <p>2020年3月20日(金)〜25日(水)<br> 12:00〜20:00(水曜日〜17:00)</p>
+                        </div>
+                        <div class="r3">
+                            <p>島田樂樂 川本仁紀<br>有賀楓夏 大嶋はな<br>杉下睦実 久保田伶奈</p>
+                        </div>
+                        <div class="pc">
+                            <div class="r4">
+                                <p>instagram:<a span href="https://www.instagram.com/omoidenohakaba/?hl=ja">omoidenohakaba</a></p>
+                            </div>
+                        </div>
+                        <div class="smh">
+                            <div class="r4">
+                                <a span href="https://www.instagram.com/omoidenohakaba/?hl=ja">instagram</a>
+                            </div>
+                        </div>
+                        <div class="smh">
+                            <div class="r5">
+                                <a>新宿眼科画廊 特設ページはこちら</a>
+                            </div>
+                        </div>
+                        <div class="pc">
+                            <div class="r5">
+                                <p>新宿眼科画廊 特設ページ</p>
+                            </div>
                         </div>
                     </div>
                     <div class="pc">
@@ -128,25 +301,42 @@
                         </div>
                     </div>
                 </div>
-                <div class="rellax1"> <div class="rellax" data-rellax-speed="-2"><img src="img/hone_para.PNG" width="550px"></div></div>
-               <div class="rellax2"> <div class="rellax" data-rellax-speed="-1"><img src="img/siote.png" width="300px"></div></div>
+                <div class="rellax1">
+                    <div class="rellax" data-rellax-speed="-2"><img src="img/hone_para.PNG" width="550px"></div>
+                </div>
+                <div class="rellax2">
+                    <div class="rellax" data-rellax-speed="-1"><img src="img/siote.png" width="300px"></div>
+                </div>
 
             </div>
         </div>
     </div>
     <div id="access">
         <div class="tizu">
-        <h1>:ACCESS</h1>
-       
-        <div class="ac1">
-            <p>新宿眼科画廊</p>
+            <h1>:ACCESS</h1>
+
+            <div class="ac1">
+                <p>新宿眼科画廊</p>
+            </div>
+            <div class="ac2">
+                <p>〒160-0022 東京都新宿区新宿 5-18-11<br>03-5285-8822 / info@gankagarou.com</p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.2795019869777!2d139.70407131525914!3d35.69473898019121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd94d99cab9%3A0xe58d9699e567a6f9!2z5paw5a6_55y856eR55S75buK!5e0!3m2!1sja!2sjp!4v1583316782589!5m2!1sja!2sjp" width="900" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
-        <div class="ac2">
-            <p>〒160-0022 東京都新宿区新宿 5-18-11<br>03-5285-8822 / info@gankagarou.com</p>
-        </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.2795019869777!2d139.70407131525914!3d35.69473898019121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd94d99cab9%3A0xe58d9699e567a6f9!2z5paw5a6_55y856eR55S75buK!5e0!3m2!1sja!2sjp!4v1583316782589!5m2!1sja!2sjp" width="900" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
-    </div>
+    
+    
+   
+    
+
+    
+  
+ 
+      
+        
+            
+    
+    
     <style>
         @import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
 
@@ -262,6 +452,18 @@
     </script>
     <script type="text/javascript" src=">./js/snowfall.js"></script>
     <script type="text/javascript" src="./js/snowfall.jquery.js"></script>
+    <script>
+        $(function() {
+            $('.menu-btn').on('click', function() {
+                $('.menu').toggleClass('is-active');
+            });
+        }());
+
+    </script>
+    
+    
+     
+
 </body>
 
 </html>

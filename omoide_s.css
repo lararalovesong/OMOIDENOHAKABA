@@ -1,0 +1,577 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'kokoro';
+    src: url(./font/Kokoro.otf);
+}
+
+@font-face {
+    font-family: 'hannari';
+    src: url(./font/Hannari.otf);
+}
+
+@font-face {
+    font-family: 'dot';
+    src: url(./font/misaki_gothic.ttf);
+}
+
+
+html {
+    background-color: #fff;
+    font-size: 30px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.smh {
+    display: block;
+}
+
+.pc {
+    display: none;
+}
+
+/*mainvisual*/
+
+
+li {
+    float: left;
+    color: gray;
+    font-family: 'dot';
+    padding-left: 90px;
+    text-align: center;
+    list-style: none;
+
+
+}
+
+
+
+#ham-menu {
+    background-color: #2A2A2A;
+    /*メニュー背景色*/
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px 0px;
+    /*メニュー内左右上下余白*/
+    position: fixed;
+    right: -250px;
+    /*メニュー横幅 width と合わせる*/
+    top: 0;
+    transition: transform 0.3s linear 0s;
+    /*0.3s はアニメーションにかかる時間*/
+    width: 250px;
+    /*メニュー横幅*/
+    z-index: 1000;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+#menu-background {
+    background-color: #333;
+    /*黒背景*/
+    display: block;
+    height: 100%;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.3s linear 0s;
+    /*0.3s はアニメーションにかかる時間*/
+    width: 100%;
+    z-index: -1;
+
+}
+
+#menu-icon {
+    /*アイコン部分背景色*/
+    border-radius: 0 0 0 10px;
+    /*左下角丸*/
+    color: #00FF00;
+    /*アイコン（フォント）色*/
+    cursor: pointer;
+    display: block;
+    font-size: 50px;
+    /*アイコン（フォント）サイズ*/
+    height: 50px;
+    /*アイコン縦高さ*/
+    line-height: 50px;
+    /*縦位置中央化*/
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 50px;
+    /*アイコン横幅*/
+    transition: all 0.3s linear 0s;
+    /*0.3s はアニメーションにかかる時間*/
+    z-index: 1000;
+}
+
+#menu-cb {
+    display: none;
+    /*チェックボックス本体は消しておく*/
+}
+
+#menu-cb:checked ~ #ham-menu,
+#menu-cb:checked ~ #menu-icon {
+    transform: translate(-250px);
+    /*メニュー本体横幅 width と合わせる*/
+}
+
+#menu-cb:checked ~ #menu-background {
+    opacity: 0.5;
+    z-index: 999;
+}
+
+
+.glitch {
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+#mainv img {
+    width: 90%;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+
+}
+
+
+.logo p {
+    color: #fff;
+    font-size: 11px;
+    font-family: 'kokoro';
+
+}
+
+.logoEN p {
+    color: #00FF00;
+    font-size: 4vw;
+    font-family: 'arial narrow';
+}
+
+.titlelogo {
+    width: 600px;
+
+}
+
+.titlelogo p {
+    color: #00FF00;
+    font-family: 'hannari';
+    font-size: 10vw;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    margin-top: 30px;
+}
+
+.logoshousai p {
+    margin-top: 11px;
+}
+
+/*poem*/
+#poem {
+    background-color: #000;
+    margin-top: -10px;
+    font-size: 12px;
+
+}
+
+.small {
+
+    padding-top: 50px;
+    font-family: 'kokoro';
+    line-height: 55px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -300px;
+}
+
+
+.tumo{
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom:-20px;
+    text-align: center;
+    margin-top: -300px;
+    overflow: hidden;
+    
+}
+/*menber*/
+#menber {
+    background-color: #DDDDDD;
+    
+}
+
+#menber h1{
+    margin-top: -140px;
+    margin-bottom: 0px;
+}
+.iei{
+    
+      width: 90%;
+    display:flex;
+   display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: flex;
+        -webkit-box-lines: multiple;
+        -moz-box-lines: multiple;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: 3;
+   
+    text-align: center;
+}
+.iei_box{
+     width: 90%;
+   margin: 0 auto;
+     text-align: center;
+    margin-right:0;
+}
+.iei img{
+  height: 150px;
+    margin: 3px 8px;
+     flex-shrink: 0;
+        flex-basis: 130px;
+       
+        z-index: 3;
+}
+
+.iei{
+     margin-right:0;
+}
+    /*  about  */
+    #about {
+        background-color: #DDDDDD;
+        position: relative;
+        font-family: 'kokoro';
+        padding-bottom: 170px;
+        padding-top: 80px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  about  */
+#about {
+    background-color: #DDDDDD;
+    position: relative;
+    font-family: 'kokoro';
+
+}
+
+.intro_img {
+    display: none;
+}
+
+.contents {
+
+    background-repeat: no-repeat;
+    background-image: url(img/omoide_s.png);
+    height: 100%;
+    background-size: 100%;
+    margin: 0 auto;
+    border-radius: 0px;
+    width: 73%;
+    height: 120vw;
+   margin-bottom: -20%;
+
+
+
+}
+
+
+.right-box {
+   
+padding-top: 12%;
+}
+
+h1 {
+    font-family: 'dot';
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+#about h1{
+    margin-bottom: 30px;
+}
+
+.text {
+    
+  width: 280px;
+    margin: 0 auto;
+    border-radius: 0px;
+    margin-top:20%;
+    padding: 0px;
+
+}
+
+.lefto{
+    margin: 30px;
+    margin-top: 0;
+}
+.centero{
+    
+    text-align: center;
+    padding-top: -20px;
+}
+
+.r0 p {
+    font-family: 'hannari';
+    font-size: 5vw;
+    text-align: center;
+}
+
+.r1 p {
+    font-size: 4vw;
+     text-align: center;
+}
+
+.bold {
+    font-size: 3vw;
+    
+}
+
+.r2 p {
+    font-size: 2vw;
+ 
+}
+
+.r3 p {
+    font-size: 3.3vw;
+  
+}
+
+.r4 {
+    margin-top: -10px;
+
+}
+
+
+
+.r4 a {
+    font-size: 2vw;
+    text-decoration: none;
+    color: #000;
+ padding: 4px 6px;
+  background-color: #fff;
+  
+  box-shadow: 3px 3px 0px 0px #00ff00;    
+}
+
+
+.r5{
+   margin-top: -10px;
+}
+
+.r5 a {
+    font-size: 2vw;
+     text-decoration: none;
+    color: #000;
+ padding: 4px 6px;
+  background-color: #fff;
+  
+  box-shadow: 3px 3px 0px 0px #00ff00;  
+}
+
+.rellax1 {
+font: right;
+      position: absolute;
+    top: -1170px;
+   right: 10px;
+    z-index: 100px;
+}
+
+.rellax1 img {
+    width: 35vw;
+
+}
+
+.rellax2 img {
+    width: 30vw;
+}
+
+.rellax2 {
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    z-index: 100px;
+}
+
+/*access*/
+#access {
+    background-color: #2A2A2A;
+
+    z-index: -1px;
+    height: 180vw;
+}
+
+#access p {
+    color: #DDDDDD;
+}
+
+.tizu {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    height: 500px;
+
+}
+
+#access h1 {
+    color: #00FF00;
+    padding-top: 50px;
+}
+
+.ac1 {
+    font-family: 'kokoro';
+    position: absolute;
+    top: 159px;
+    left: 0;
+    font-size: 14px;
+
+}
+
+.ac2 {
+    font-family: 'kokoro';
+    position: absolute;
+    top: 152px;
+    right: 5px;
+    font-size: 10px;
+    
+text-decoration:none;
+
+}
+
+.ac2 a{
+color: #fff;
+text-decoration:none;
+
+}
+
+iframe {
+    padding-top: 120px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/*kousin*/
+
+#ham-menu a {
+    font-family: color: #00FF00;
+    font-size: 25px;
+    font-family: 'arial narrow';
+    text-decoration: none;
+    color: #00FF00;
+    padding-top: 30px;
+    line-height: 90px;
+
+}
+
+* {
+  box-sizing: border-box;
+  }
+
+/* ポップアップウインドウの設定 */
+.popup {
+  background-color: #efefef;
+ 
+  display: none;
+  position: fixed;
+  top: 10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 70vw;
+  height: 55vw;
+  overflow-y: scroll;
+}
+/* チェックボックスの初期設定 */
+#popup-on{
+  display: none;
+}
+/* チェックされたらポップアップウインドウを開く */
+#popup-on:checked + .popup{
+  display: block;
+}
+
+/* 閉じるアイコン（右上） */
+.icon-close{
+  background: #000;
+  color: #fff;
+  font-size: 30px;
+  padding: 0 10px;
+  position: absolute;
+  right: 0;
+}
+
+/* 閉じるボタン */
+.btn-close{
+  background: #000;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px auto;
+  width: 95%;
+  text-align: center;
+}
+
+/* 開くボタン */
+.btn-open{
+ 
+
+ 
+
+  cursor: pointer;
+  margin: 3px auto;
+  width: 90%;
+  text-align: center;
+}
+
+/* ポップアップの内容 */
+.popup-content{
+  margin: 40px auto 40px auto;
+  width: 90%;
+}
