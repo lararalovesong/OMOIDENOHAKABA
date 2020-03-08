@@ -426,6 +426,7 @@ font: right;
 
 .rellax2 img {
     width: 30vw;
+    max-width: 150px;
 }
 
 .rellax2 {

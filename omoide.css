@@ -44,7 +44,9 @@
 
 
 
-
+body{
+    overflow-x: hidden;
+}
 
 
 
@@ -321,23 +323,25 @@ letter-spacing:5px;
     .rellax1{
      
         position: absolute;
-        top:-290px;
+        top:-500px;
         left:740px;
          z-index: 100px;
     }
      .rellax1 img{
  width: 30vw;
          min-width: 170px;
+            max-width: 370px;
         
     }
 .rellax2 img{
  width: 17vw;
      min-width: 200px;
+      max-width: 320px;
     }
     .rellax2 {
         position: absolute;
         top:270px;
-        left:-120px;
+        left:-220px;
         z-index: 100px;
       
         
