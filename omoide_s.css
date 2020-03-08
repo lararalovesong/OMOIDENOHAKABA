@@ -137,6 +137,7 @@ li {
     height: 100vh;
 }
 
+
 #mainv img {
     width: 90%;
     position: absolute;
@@ -145,6 +146,8 @@ li {
     left: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
+    
+    margin-top: -30px;
 
 }
 
@@ -179,7 +182,7 @@ li {
     left: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
-    margin-top: 30px;
+    margin-top: -11px;
 }
 
 .logoshousai p {
