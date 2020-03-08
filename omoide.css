@@ -226,6 +226,22 @@ body{
 .iei{
      margin-right:0;
 }
+
+
+.tatem p{writing-mode:vertical-rl;
+        color: #00FF00;
+        
+font-size: 44px;
+    }
+    
+    .tatem{  top:2150px;
+        left: 60px;
+        position: absolute;}
+    
+    
+    
+
+
     /*  about  */
     #about {
         background-color: #DDDDDD;
@@ -233,6 +249,7 @@ body{
         font-family: 'kokoro';
         padding-bottom: 170px;
     }
+
 
 
 
@@ -248,7 +265,9 @@ position: relative;
         margin-top: 100px;
        
     }
-    }
+    
+      }
+    
 
     h1 {
         font-family: 'dot';
@@ -319,7 +338,7 @@ letter-spacing:5px;
     }
 
 
-@media screen and (min-width: 800px) { 
+@media screen and (min-width: 1000px) { 
     .rellax1{
      
         position: absolute;
@@ -334,8 +353,8 @@ letter-spacing:5px;
         
     }
 .rellax2 img{
- width: 17vw;
-     min-width: 200px;
+ width: 16vw;
+     min-width: 100px;
       max-width: 320px;
     }
     .rellax2 {
@@ -343,6 +362,28 @@ letter-spacing:5px;
         top:270px;
         left:-220px;
         z-index: 100px;
+      
+        
+    }
+}
+
+@media screen and (max-width: 1000px) { 
+    .rellax1{
+     
+        position: absolute;
+        top:-500px;
+        left:740px;
+         z-index: 100px;
+    }
+     .rellax1 img{
+ width: 30vw;
+         min-width: 170px;
+            max-width: 370px;
+        
+    }
+
+    .rellax2 {
+        display: none;
       
         
     }
@@ -359,7 +400,7 @@ letter-spacing:5px;
         color: #DDDDDD;
     }
    .tizu{
-       width: 900px;
+       width: 700px;
        margin: 0 auto;
        position: relative;
     height: 800px;
@@ -386,7 +427,41 @@ letter-spacing:5px;
            font-size: 20px;
      
     }
-   iframe{padding-top: 190px;}
+
+
+
+
+   iframe{padding-top: 190px;
+height: 800px;
+}
+
+
+@media screen and (min-width: 1000px) { 
+
+.tatea p{writing-mode:vertical-rl;
+        color: #00FF00;
+        
+font-size:2vw;
+    }
+    
+    .tatea{  top:20px;
+        right: 60px;
+        top:4100px;
+        position: absolute;}
+}
+
+@media screen and (max-width: 1000px) { 
+
+    .tatea p{  display: none;}
+}
+
+@media screen and (min-width: 500px) { 
+
+    .tatea p{  display: none;}
+    .tatem p{  display: none;}
+    .rellax1{  display: none;}
+}
+    
 
 
 * {
