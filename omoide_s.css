@@ -147,7 +147,7 @@ li {
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
     
-    margin-top: -70px;
+    margin-top: -63px;
 
 }
 
@@ -182,7 +182,7 @@ li {
     left: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
-    margin-top: -28px;
+    margin-top: -25px;
 }
 
 .logoshousai p {
@@ -434,7 +434,7 @@ font: right;
 
 .rellax2 {
     position: absolute;
-    top: 270px;
+    top: 320px;
     left: 20px;
     z-index: 100px;
 }
