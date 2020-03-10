@@ -8,20 +8,21 @@
 
     <link rel="stylesheet" href="omoide.css">
     <link rel="stylesheet" media="screen and (max-width:800px)" href="omoide_s.css">
-  
+
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script type="text/javascript" src=">./omoide_nav.js"></script>
+    <script type="text/javascript" src=">./js/modal.js"></script>
 
     <!-- drawer.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
     <!-- jquery & iScroll -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
     <!-- drawer.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
-<script src="js/modal.js"></script>
-
+    <script src="js/modal.js"></script>
+ <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+   <script src="js/src/snowfall.jquery.js"></script>
 </head>
 
 <body>
@@ -59,9 +60,9 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li>MENBER</li>
-                        <li>ABOUT</li>
-                        <li>ACCESS</li>
+                        <li><a href="#menber">MENBER</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#access">ACCESS</a></li>
                     </ul>
                 </nav>
             </div>
@@ -72,14 +73,17 @@
 
 
 
-        <div class="glitch">
+        <div class="gl">
             <img src="./img/main_hone.png" alt="">
         </div>
 
 
         <div class="logo">
             <div class="titlelogo">
+              <div class="glitch">
                 <p>思い出の墓場展</p>
+                </div>
+                
             </div>
             <div class="logoEN">
                 <p>The graveyard of memories</p>
@@ -90,6 +94,8 @@
 
         </div>
     </div>
+    
+       <div class="test1">
     <div id="poem">
 
         <div class="test" contenteditable>
@@ -99,8 +105,8 @@
                 でも、あなた自身だってそうでしょう。<br>
                 ずっと何十億も前のあなたは、きっと星くずみたいなモンですよ。</p>
 
-        </div>
-
+        
+   </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
@@ -133,126 +139,118 @@
         <div class="tumo">
             <img src="./img/tumo.PNG" alt="" height="700px">
         </div>
-    </div>
+        </div>
+           </div>
+        
+   
 
     <div id="menber">
-    <div class="tatem">
-<p>omoidenohakabaten</p>
+        <div class="tatem">
+            <p>omoidenohakabaten</p>
         </div>
         <h1>:MENBER</h1>
         <div class="iei_box">
             <div class="iei">
-                <div class="ieirara">
-  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
-  <input type="checkbox" id="popup-on">
-  <div class="popup">
-    <label for="popup-on" class="icon-close">×</label>
-    <div class="popup-content">
-       <!-- ポップアップの中身 -->
-       ポップアップのxxxxxxxxxxxxxxxxxxxxxxxxxxxxx内容<br>画像もOK<br>
-      <img src="./img/iei.png" alt="" class="layer-img">
-        
-        <!-- ./ポップアップの中身　ここまで -->
-    </div>
-    <label for="popup-on"><div class="btn-close">閉じる</div></label>
-  </div>
- </div>
-    
-    
-    
-     <div class="ieimuchi">
-  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
-  <input type="checkbox" id="popup-on">
-  <div class="popup">
-    <label for="popup-on" class="icon-close">×</label>
-    <div class="popup-content">
-       <!-- ポップアップの中身 -->
-       ポップアップの内xxxx容<br>画像xxもOxxxK<br>
-      <img src="./img/iei.png" alt="" class="layer-img">
-        <img src="./img/iei.png" alt="" class="layer-img">
-         <img src="./img/iei.png" alt="" class="layer-img">
-          <img src="./img/iei.png" alt="" class="layer-img">
-          <img src="./img/iei.png" alt="" class="layer-img">
-        
-        <!-- ./ポップアップの中身　ここまで -->
-    </div>
-    <label for="popup-on"><div class="btn-close">閉じる</div></label>
-  </div>
- </div>
-              
-              
-    <div class="ieiniki">
-  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
-  <input type="checkbox" id="popup-on">
-  <div class="popup">
-    <label for="popup-on" class="icon-close">×</label>
-    <div class="popup-content">
-       <!-- ポップアップの中身 -->
-       ポップアップの内容<br>画像もOK<br>
-      <img src="https://homepagenopro.com/wp-content/uploads/2018/08/d11_img_mizudori.png" alt="" class="layer-img">
-        
-        <!-- ./ポップアップの中身　ここまで -->
-    </div>
-    <label for="popup-on"><div class="btn-close">閉じる</div></label>
-  </div>
- </div>           
-              
- 
-                  <div class="ieireina">
-  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
-  <input type="checkbox" id="popup-on">
-  <div class="popup">
-    <label for="popup-on" class="icon-close">×</label>
-    <div class="popup-content">
-       <!-- ポップアップの中身 -->
-       ポップアップの内容<br>画像もOK<br>
-      <img src="https://homepagenopro.com/wp-content/uploads/2018/08/d11_img_mizudori.png" alt="" class="layer-img">
-        
-        <!-- ./ポップアップの中身　ここまで -->
-    </div>
-    <label for="popup-on"><div class="btn-close">閉じる</div></label>
-  </div>
- </div>     
-             
-             
-             
-                    <div class="ieihana">
-  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
-  <input type="checkbox" id="popup-on">
-  <div class="popup">
-    <label for="popup-on" class="icon-close">×</label>
-    <div class="popup-content">
-       <!-- ポップアップの中身 -->
-       ポップアップの内容<br>画像もOK<br>
-      <img src="https://homepagenopro.com/wp-content/uploads/2018/08/d11_img_mizudori.png" alt="" class="layer-img">
-        
-        <!-- ./ポップアップの中身　ここまで -->
-    </div>
-    <label for="popup-on"><div class="btn-close">閉じる</div></label>
-  </div>
- </div>                
-                           
-                                                     
-                   <div class="ieiaruga">
-  <label for="popup-on"><label for="popup-on"><div class="btn-open"><img src="./img/iei.png" alt="" class="layer-img"></div></label>
-  <input type="checkbox" id="popup-on">
-  <div class="popup">
-    <label for="popup-on" class="icon-close">×</label>
-    <div class="popup-content">
-       <!-- ポップアップの中身 -->
-       ポップアップの内容<br>画像もOK<br>
-      <img src="https://homepagenopro.com/wp-content/uploads/2018/08/d11_img_mizudori.png" alt="" class="layer-img">
-        
-        <!-- ./ポップアップの中身　ここまで -->
-    </div>
-    <label for="popup-on"><div class="btn-close">閉じる</div></label>
-  </div>
- </div>                  
-                 
-               
+
+
+                <div id="ieimuchi">
+                    <button class="my-button"><img src="./img/iei.png" alt="" class="layer-img"></button>
+                    <!-- Element to pop up -->
+                    <div class="element_to_pop_up">
+                        <a class="b-close">x</a>
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                    </div>
+                </div>
+
+
+
+                <div id="ieimuchi">
+                    <button class="my-button"><img src="./img/iei.png" alt="" class="layer-img"></button>
+                    <!-- Element to pop up -->
+                    <div class="element_to_pop_up">
+                        <a class="b-close">x</a>
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div id="ieimuchi">
+                    <button class="my-button"><img src="./img/iei.png" alt="" class="layer-img"></button>
+                    <!-- Element to pop up -->
+                    <div class="element_to_pop_up">
+                        <a class="b-close">x</a>
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                    </div>
+                </div>
+
+
+
+
+
+                <div id="ieimuchi">
+                    <button class="my-button"><img src="./img/iei.png" alt="" class="layer-img"></button>
+                    <!-- Element to pop up -->
+                    <div class="element_to_pop_up">
+                        <a class="b-close">x</a>
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                <div id="ieimuchi">
+                    <button class="my-button"><img src="./img/iei.png" alt="" class="layer-img"></button>
+                    <!-- Element to pop up -->
+                    <div class="element_to_pop_up">
+                        <a class="b-close">x</a>
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                    </div>
+                </div>
+                
+                
+                
+                
+                <div id="ieimuchi">
+                    <button class="my-button"><img src="./img/iei.png" alt="" class="layer-img"></button>
+                    <!-- Element to pop up -->
+                    <div class="element_to_pop_up">
+                        <a class="b-close">x</a>
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                        p Content <img src="./img/iei.png" alt="rrr" class="layer-img">
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
             </div>
         </div>
     </div>
+
     <div id="about">
         <h1>:ABOUT</h1>
         <div class="contents">
@@ -315,9 +313,24 @@
     </div>
     <div id="access">
         <div class="tatea">
-<p>
-the graveyard of memories</p>
+            <p>
+                the graveyard of memories</p>
         </div>
+        
+        
+
+<div class="glitch">
+	<div class="glitch__img"></div>
+	<div class="glitch__img"></div>
+	<div class="glitch__img"></div>
+	<div class="glitch__img"></div>
+	<div class="glitch__img"></div>
+</div>
+        
+        
+        
+        
+        
         <div class="tizu">
             <h1>:ACCESS</h1>
 
@@ -330,19 +343,16 @@ the graveyard of memories</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.2795019869777!2d139.70407131525914!3d35.69473898019121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd94d99cab9%3A0xe58d9699e567a6f9!2z5paw5a6_55y856eR55S75buK!5e0!3m2!1sja!2sjp!4v1583316782589!5m2!1sja!2sjp" width="700" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
     </div>
-    
-    
-   
-    
 
-    
-  
- 
-      
-        
-            
-    
-    
+
+
+
+
+
+
+
+
+
     <style>
         @import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
 
@@ -428,36 +438,17 @@ the graveyard of memories</p>
         });
 
     </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script>
-        $(document).snowfall({
-            // 雪の量 (数値)
-            flakeCount: 550,
-            // 色 (RGB)
-            flakeColor: "#FFF",
-            // z-indexの値
-            flakeIndex: "888",
-            // 最小サイズ （数値）
-            minSize: 5,
-            // 最大サイズ（数値）
-            maxSize: 15,
-            // 最低速度（数値）
-            minSpeed: 5,
-            // 最高速度（数値）
-            maxSpeed: 10,
-            // 雪の形を丸にする（boolean）
-            round: true,
-            // 影をつける（boolean）
-            shadow: false
-            // 要素に積もらせる場合
-            //    collection : "積もらせる要素",
-            //    // オリジナル画像を使用する場合
-            //    image : "画像へのパス"
-        });
+   
+    <script type="text/javascript" src="./JQuery-Snowfall-master/dist/snowfall.jquery.min.js"></script>
+    <script type="text/javascript">
 
+$('.test').snowfall({
+
+});
+ 
     </script>
-    <script type="text/javascript" src=">./js/snowfall.js"></script>
-    <script type="text/javascript" src="./js/snowfall.jquery.js"></script>
+    
+    
     <script>
         $(function() {
             $('.menu-btn').on('click', function() {
@@ -466,9 +457,22 @@ the graveyard of memories</p>
         }());
 
     </script>
-    
-    
-     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 
