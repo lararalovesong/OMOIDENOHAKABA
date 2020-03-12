@@ -701,9 +701,8 @@ button img{display: block;}
     color:#000;
     display:none; 
     padding:20px;
-       max-width:350px;
+   width:350px;
    max-height: 600px;
-     width: 100%;
     text-align: center;
       overflow-y: scroll;
     font-family: "kokoro";
@@ -715,9 +714,8 @@ button img{display: block;}
     color:#000;
     display:none; 
     padding:20px;
-      max-width:350px;
+   width:350px;
    max-height: 600px;
-     width: 100%;
     text-align: center;
       overflow-y: scroll;
     font-family: "kokoro";
@@ -728,13 +726,12 @@ button img{display: block;}
     color:#000;
     display:none; 
     padding:20px;
-    max-width:350px;
+   width:350px;
    max-height: 600px;
-     width: 100%;
     text-align: center;
       overflow-y: scroll;
     font-family: "kokoro";
-    width: 100%;
+   
 
 }
 .element_to_pop_up4 { 
@@ -745,7 +742,6 @@ button img{display: block;}
     padding:20px;
       max-width:350px;
    max-height: 600px;
-     width: 100%;
     text-align: center;
       overflow-y: scroll;
     font-family: "kokoro";
@@ -756,9 +752,8 @@ button img{display: block;}
     color:#000;
     display:none; 
     padding:20px;
-     max-width:350px;
+    width:350px;
    max-height: 600px;
-     width: 100%;
     text-align: center;
       overflow-y: scroll;
     font-family: "kokoro";
@@ -769,10 +764,9 @@ button img{display: block;}
     color:#000;
     display:none; 
     padding:20px;
-    max-width:350px;
+width:350px;
  
    max-height: 600px;
-     width: 100%;
     text-align: center;
       overflow-y: scroll;
     font-family: "kokoro";
