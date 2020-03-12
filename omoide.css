@@ -544,7 +544,7 @@ button{
     line-height:0;
     overflow:visible;
     cursor:pointer;
-    
+        margin: 0 auto;
 }
 
 
@@ -560,6 +560,7 @@ button img{display: block;}
     text-align: center;
       overflow-y: scroll;
     font-family: "kokoro";
+    margin: 0 auto;
 }
 .element_to_pop_up2 { 
     background-color:#fff;
