@@ -423,10 +423,11 @@ h1 {
 .rellax1 {
     font: right;
     position: absolute;
-    top: -970px;
-    right: 10px;
+    top: -650px;
+   left: 60%;
     z-index: 100px;
 }
+
 
 .rellax1 img {
     width: 35vw;
@@ -439,6 +440,7 @@ h1 {
 }
 
 .rellax2 {
+    display: block;
     position: absolute;
     top: 250px;
     left: 20px;
@@ -451,6 +453,7 @@ h1 {
 
     z-index: -1px;
     height: 180vw;
+    max-height: 700px;
 }
 
 #access p {
@@ -533,18 +536,18 @@ h1 {
     }
 
     .tatea p {
-        display: block;
+        display: none;
     }
     
     
     
     .tatem p{writing-mode:vertical-rl;
-        color: #00FF00;
+        color: #18BC3B;
         
- font-size: 5vw;
+ font-size: 4vw;
     }
     
-    .tatem{  top:420%;
+    .tatem{  top:1400px;
         left: 10px;
         position: absolute;}
     
@@ -552,9 +555,15 @@ h1 {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
 
-
+.rellax1 {
+   font: right;
+    position: absolute;
+    top: -990px;
+   left: 60%;
+    z-index: 100px;
+    }
 
     .tizu {
         width: 250px;
@@ -583,24 +592,24 @@ h1 {
 
     .tatea {
         
-        right: 60px;
-        top: 510%;
+       left: 90%;
+        top: 300%;
         position: absolute;
     }
 
     .tatea p {
-        display: none;
+        display: block;
     }
     
     
     
     .tatem p{writing-mode:vertical-rl;
-        color: #00FF00;
+        color: #18BC3B;
         
  font-size: 5vw;
     }
     
-    .tatem{  top:1670px;
+    .tatem{  top:1470px;
         left: 14px;
         position: absolute;}
 
@@ -684,3 +693,193 @@ button img{display: block;}
     right:10px;
     top:5px;
 }
+
+
+
+.test{
+       
+        
+        width: 100%;
+        margin: 0 auto;
+      text-align: center;
+margin-top:-200px;
+    padding-bottom: -100px;
+ 
+    }
+
+
+    .small {
+        padding-top: 100px;
+        font-family: 'kokoro';
+        line-height: 60px;
+        text-align: center;
+   padding-bottom: 60px;
+    }
+
+
+
+
+ .tatem p{
+        color: #18BC3B;
+
+    }
+
+
+
+.guri{
+  display: block;
+  width: 600px;
+  height: 200px;
+
+  text-align: center;
+   font-family: 'hannari';
+  font-weight: normal;
+  
+
+  overflow: hidden;
+    margin-bottom: -20%;
+}
+
+
+@media screen and (max-width: 400px) {
+    .guri{
+  
+    margin-bottom: -25%;
+}
+}
+@media screen and (min-width: 400px) {
+    .guri{
+  
+    margin-bottom: -20%;
+}
+}
+
+
+
+
+
+
+.guri .texts {
+  display: block;
+  width: inherit;
+  height: inherit;
+
+   text-align: center;
+ font-family: 'hannari';
+  font-weight: normal;
+  left: 2px;
+  top: 0px;
+  position: absolute;
+  overflow: hidden;
+  animation-name: textBlink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.shadow {
+  position: absolute;
+  width: inherit;
+  height: 30px;
+  overflow: hidden;
+  animation-name: shadowDown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.shadow .viewport {
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+
+.shadow .texts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  animation-name: shadowTextUp;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes textBlink {
+  0% {
+    opacity: 1;
+    left: 2px;
+  }
+  30% {
+    opacity: .7;
+  }
+  70% {
+    opacity: .8;
+    left: -2px;
+  }
+  71% {
+    opacity: .8;
+    left: 0px;
+  }
+  75% {
+    opacity: .8;
+    left: 1px;
+  }
+  100% {
+    opacity: 7;
+    left: 0px;
+  }
+}
+
+@keyframes shadowDown {
+  0% {
+    top: 0px;
+  }
+  10% {
+    top: 20px;
+  }
+  20% {
+    top: 30px;
+  }
+  40% {
+    top: 35px;
+  }
+  60% {
+    top: 50px;
+  }
+  70% {
+    top: 20px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+
+@keyframes shadowTextUp {
+  0% {
+    top: 0px;
+  }
+  10% {
+    top: -20px;
+    opacity: .5;
+  }
+  20% {
+    top: -30px;
+    opacity: 1;
+  }
+  40% {
+    top: -35px;
+  }
+  60% {
+    top: -50px;
+    opacity: .5;
+  }
+  70% {
+    top: -20px;
+  }
+  100% {
+    top: -10px;
+    opacity: 1;
+  }
+}
+
+

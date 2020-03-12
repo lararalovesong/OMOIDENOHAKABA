@@ -227,15 +227,23 @@ body{
        height: 180px;
        
         z-index: 3;
+    -webkit-filter: grayscale(1);
+	filter: gray;
+	filter: grayscale(1);
 }
 
+
+.iei :hover{-webkit-filter: grayscale(0);
+		filter: none;
+		filter: grayscale(0);}
 .iei{
      margin-right:0;
+    
 }
 
 
 .tatem p{writing-mode:vertical-rl;
-        color: #00FF00;
+        color: #18BC3B;
         
 font-size: 44px;
     }
@@ -445,14 +453,14 @@ height: 800px;
 @media screen and (min-width: 1000px) { 
 
 .tatea p{writing-mode:vertical-rl;
-        color: #00FF00;
+    
         
 font-size:2vw;
     }
     
     .tatea{  top:20px;
         right: 60px;
-        top:4100px;
+        top:4000px;
         position: absolute;}
 }
  
@@ -462,12 +470,7 @@ font-size:2vw;
     .tatea p{  display: none;}
 }
 
-@media screen and (min-width: 500px) { 
 
-    .tatea p{  display: none;}
-    .tatem p{  display: none;}
-  
-}
     
 
 
@@ -516,11 +519,158 @@ button img{display: block;}
 
 
 
+.guri{
+  display: block;
+  width: 800px;
+  height: 200px;
+  color: #eee;
+  
+  font-family: arial;
+  font-weight: normal;
+  
+
+  overflow: hidden;
+    margin-bottom: -60px;
+}
+
+.guri .texts {
+  display: block;
+  width: inherit;
+  height: inherit;
+
+  
+  font-family: arial;
+  font-weight: normal;
+  left: 2px;
+  top: 0px;
+  position: absolute;
+  overflow: hidden;
+  animation-name: textBlink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.shadow {
+  position: absolute;
+  width: inherit;
+  height: 40px;
+  overflow: hidden;
+  animation-name: shadowDown;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.shadow .viewport {
+  position: relative;
+  width: inherit;
+  height: 200px;
+}
+
+.shadow .texts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  animation-name: shadowTextUp;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes textBlink {
+  0% {
+    opacity: 1;
+    left: 2px;
+  }
+  30% {
+    opacity: .7;
+  }
+  70% {
+    opacity: .8;
+    left: -2px;
+  }
+  71% {
+    opacity: .8;
+    left: 0px;
+  }
+  75% {
+    opacity: .8;
+    left: 1px;
+  }
+  100% {
+    opacity: 7;
+    left: 0px;
+  }
+}
+
+@keyframes shadowDown {
+  0% {
+    top: 0px;
+  }
+  10% {
+    top: 20px;
+  }
+  20% {
+    top: 30px;
+  }
+  40% {
+    top: 35px;
+  }
+  60% {
+    top: 50px;
+  }
+  70% {
+    top: 20px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+
+@keyframes shadowTextUp {
+  0% {
+    top: 0px;
+  }
+  10% {
+    top: -20px;
+    opacity: .5;
+  }
+  20% {
+    top: -30px;
+    opacity: 1;
+  }
+  40% {
+    top: -35px;
+  }
+  60% {
+    top: -50px;
+    opacity: .5;
+  }
+  70% {
+    top: -20px;
+  }
+  100% {
+    top: -10px;
+    opacity: 1;
+  }
+}
 
 
 
 
 
+
+
+
+
+footer{
+    text-align: center;
+    font-size: 16px;
+      background-color: #2A2A2A;
+    color: #DDDDDD;
+    padding-bottom:40px;
+}
 
 
 
