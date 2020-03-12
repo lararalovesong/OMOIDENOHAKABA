@@ -5,13 +5,13 @@
 
             // Binding a click event
             // From jQuery v.1.7.0 use .on() instead of .bind()
-            $('.my-button').bind('click', function(e) {
+            $('.my-button1').bind('click', function(e) {
 
                 // Prevents the default action to be triggered. 
                 e.preventDefault();
 
                 // Triggering bPopup when click event is fired
-                $('.element_to_pop_up').bPopup();
+                $('.element_to_pop_up1').bPopup();
 
             });
 
@@ -19,6 +19,122 @@
 
     })(jQuery);
 
+
+;(function($) {
+
+         // DOM Ready
+        $(function() {
+
+            // Binding a click event
+            // From jQuery v.1.7.0 use .on() instead of .bind()
+            $('.my-button2').bind('click', function(e) {
+
+                // Prevents the default action to be triggered. 
+                e.preventDefault();
+
+                // Triggering bPopup when click event is fired
+                $('.element_to_pop_up2').bPopup();
+
+            });
+
+        });
+
+    })(jQuery);
+
+
+
+
+;(function($) {
+
+         // DOM Ready
+        $(function() {
+
+            // Binding a click event
+            // From jQuery v.1.7.0 use .on() instead of .bind()
+            $('.my-button3').bind('click', function(e) {
+
+                // Prevents the default action to be triggered. 
+                e.preventDefault();
+
+                // Triggering bPopup when click event is fired
+                $('.element_to_pop_up3').bPopup();
+
+            });
+
+        });
+
+    })(jQuery);
+
+
+
+;(function($) {
+
+         // DOM Ready
+        $(function() {
+
+            // Binding a click event
+            // From jQuery v.1.7.0 use .on() instead of .bind()
+            $('.my-button4').bind('click', function(e) {
+
+                // Prevents the default action to be triggered. 
+                e.preventDefault();
+
+                // Triggering bPopup when click event is fired
+                $('.element_to_pop_up4').bPopup();
+
+            });
+
+        });
+
+    })(jQuery);
+
+
+
+
+;(function($) {
+
+         // DOM Ready
+        $(function() {
+
+            // Binding a click event
+            // From jQuery v.1.7.0 use .on() instead of .bind()
+            $('.my-button5').bind('click', function(e) {
+
+                // Prevents the default action to be triggered. 
+                e.preventDefault();
+
+                // Triggering bPopup when click event is fired
+                $('.element_to_pop_up5').bPopup();
+
+            });
+
+        });
+
+    })(jQuery);
+
+
+
+
+;(function($) {
+
+         // DOM Ready
+        $(function() {
+
+            // Binding a click event
+            // From jQuery v.1.7.0 use .on() instead of .bind()
+            $('.my-button6').bind('click', function(e) {
+
+                // Prevents the default action to be triggered. 
+                e.preventDefault();
+
+                // Triggering bPopup when click event is fired
+                $('.element_to_pop_up6').bPopup();
+
+            });
+
+        });
+
+    })(jQuery);
 /*================================================================================
  * @name: bPopup - if you can't get it up, use bPopup
  * @author: (c)Bjoern Klinggaard (twitter@bklinggaard)

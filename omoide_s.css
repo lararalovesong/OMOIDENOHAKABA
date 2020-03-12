@@ -53,6 +53,7 @@ li {
 
 
 #ham-menu {
+    
     background-color: #2A2A2A;
     /*メニュー背景色*/
     box-sizing: border-box;
@@ -656,11 +657,18 @@ h1 {
 #ham-menu a {
     font-family: color: #00FF00;
     font-size: 25px;
-    font-family: 'arial narrow';
+      font-family: 'dot';
     text-decoration: none;
-    color: #00FF00;
+    color: #DDDDDD;
     padding-top: 30px;
     line-height: 90px;
+
+}
+
+#ham-menu a:hover{
+    
+    color: #00FF00;
+ 
 
 }
 
@@ -694,6 +702,13 @@ button img{display: block;}
     top:5px;
 }
 
+
+.sioham{ -webkit-filter: grayscale(1);
+	filter: gray;
+	filter: grayscale(1);}
+.sioham:hover{-webkit-filter: grayscale(0);
+		filter: none;
+		filter: grayscale(0);}
 
 
 .test{
