@@ -432,7 +432,7 @@ h1 {
 
 .rellax1 img {
     width: 35vw;
-
+overflow-x: hidden;
 }
 
 .rellax2 img {
