@@ -36,10 +36,10 @@
   }
       
 #loader-bg {
-     margin-bottom: 200px;
+   
     position: fixed;
-    width: 102%;
-    height: 102%;
+    width: 100%;
+    height: 100%;
     top: 0px;
     left: 0px;
     background: #00FF00;
@@ -298,8 +298,12 @@ li a{font-size: 29.5px;
 
 .tatem p{writing-mode:vertical-rl;
         color: #18BC3B;
-        
+         font-family: 'arial narrow';
 font-size: 44px;
+    }
+.tatea p{
+         font-family: 'arial narrow';
+
     }
     
     .tatem{  top:2150px;
