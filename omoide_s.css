@@ -223,12 +223,12 @@ li {
 }
 
 /*menber*/
-#menber {
+#member {
     background-color: #DDDDDD;
 
 }
 
-#menber h1 {
+#member h1 {
     margin-top: -140px;
     margin-bottom: 0px;
 }
@@ -1025,3 +1025,12 @@ margin-top:-200px;
    
     
  }
+
+.tatea p{
+         font-family: 'arial narrow';
+
+    }
+.tatem p{
+         font-family: 'arial narrow';
+
+    }
