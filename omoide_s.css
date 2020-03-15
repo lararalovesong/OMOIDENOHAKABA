@@ -460,6 +460,8 @@ overflow-x: hidden;
 
 #access p {
     color: #DDDDDD;
+    font-family: 'arial narrow';
+    
 }
 
 
@@ -1003,7 +1005,6 @@ margin-top:-200px;
 
 
 
-
 #loading{
     position: absolute;
     top: 50%;
@@ -1011,6 +1012,7 @@ margin-top:-200px;
         -webkit-transform: translateY(-50%) translateX(-50%);
         transform: translateY(-50%) translateX(-50%);
         margin-top: 30px;
+    margin-left: -7px;
   }
       
 #loader-bg {
@@ -1026,11 +1028,14 @@ margin-top:-200px;
     
  }
 
-.tatea p{
+.tatea {
+     font-family: 'arial narrow';
+
+    }
+.tatem {
          font-family: 'arial narrow';
 
     }
-.tatem p{
-         font-family: 'arial narrow';
 
-    }
+footer{margin-top: -100px;
+font-family: 'arial narrow';}
