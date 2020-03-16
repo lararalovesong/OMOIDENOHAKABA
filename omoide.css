@@ -147,7 +147,7 @@ li a{font-size: 29.5px;
         text-align: center;
         position: relative;
         overflow: hidden;
-        z-index: -3;
+        z-index: 0;
 
     }
 
@@ -804,6 +804,12 @@ footer{
 }
 
 
+
+
+    #mainv a:hover{
+  
+color: #00FF00;
+    }
 
 
 
